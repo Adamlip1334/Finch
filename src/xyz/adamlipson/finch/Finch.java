@@ -14,7 +14,7 @@ public class Finch {
     static boolean hadRuntimeError = false;
     public static void main(String[] args) throws IOException {
         if (args.length > 1) {
-            System.out.println("Usage: jlox [script]");
+            System.out.println("Usage: Finch");
             System.exit(64);
         } else if (args.length == 1) {
             runFile(args[0]);
